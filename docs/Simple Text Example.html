@@ -54,7 +54,7 @@
 <div class="row" style="padding-left:16px;padding-right:16px;"><div class="col-12 col-lg-12"><div style="height:500px;" id="mirador"></div></div></div><div class="foonote"><ul><hr/><li id="section1"><a href="#ref1">[1]</a> IIIF manifests are simply a structured list of web based images resources that can be viewed in a IIIF compliant viewer, for more details see <a href='https://iiif.io/api/presentation/2.1/#table-of-contents'>https://iiif.io/api/presentation/2.1/#table-of-contents</a></li></ul></div></div><!--/span--></div><!--/row-->    <div class="row"><div class="col-12 col-lg-12">	<br/<br/>
 	<h3>The Mirador TXT File</h3>
 	<figure>
-		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest<br>https://nhm-psb.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12198255990002081/manifest<br>https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?<br></code></pre>
+		<pre style="overflow-y: auto;overflow-x: hidden; border: 2px solid black;padding: 10px;max-height:400px;"><code>https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest<br>https://nhm-psb.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12198255990002081/canvas/13198255800002081<br>https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?<br></code></pre>
 		<figcaption class=\"figure-caption\">The complete mirador JSON file used to define the manifests and images presented in this example.</figcaption>
 	</figure>	<br/<br/>
 	<h3>Page JSON Object</h3>
@@ -102,9 +102,9 @@ var myMiradorInstance = Mirador.viewer({
 					}],
        manifests: {
 "https:\/\/eu.alma.exlibrisgroup.com\/view\/iiif\/presentation\/44NHM_INST\/12199425950002081\/manifest":{"provider":"Undefined"},
-"https:\/\/nhm-psb.alma.exlibrisgroup.com\/view\/iiif\/presentation\/44NHM_INST\/12198255990002081\/manifest":{"provider":"Undefined"},
+"https:\/\/nhm-psb.alma.exlibrisgroup.com\/view\/iiif\/presentation\/44NHM_INST\/12198255990002081\/canvas\/13198255800002081":{"provider":"Undefined"},
 "https:\/\/iiif.bodleian.ox.ac.uk\/iiif\/manifest\/b650fbd2-041e-44ee-967d-8e23634436b6.json?":{"provider":"Undefined"},},
-       "catalog": [{"manifestId": "https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest"}, {"manifestId": "https://nhm-psb.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12198255990002081/manifest"}, {"manifestId": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?"}],
+       "catalog": [{"manifestId": "https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest"}, {"manifestId": "https://nhm-psb.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12198255990002081/canvas/13198255800002081"}, {"manifestId": "https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?"}],
        
        });     
      });
