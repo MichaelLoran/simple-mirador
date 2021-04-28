@@ -1,3 +1,4 @@
+https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest
 https://manifests.britishart.yale.edu/manifest/34
 https://iiif.harvardartmuseums.org/manifests/object/299843
 https://media.nga.gov/public/manifests/nga_highlights.json
