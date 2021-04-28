@@ -1,2 +1,2 @@
 https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest
-https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?
+https://iiif.bodleian.ox.ac.uk/iiif/manifest/e52a9bed-d017-4ec8-9361-4ce930b1a02b.json?
