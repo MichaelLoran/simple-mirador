@@ -1,3 +1,2 @@
 https://eu.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12199425950002081/manifest
-https://nhm-psb.alma.exlibrisgroup.com/view/iiif/presentation/44NHM_INST/12198255990002081/canvas/13198255800002081
 https://iiif.bodleian.ox.ac.uk/iiif/manifest/b650fbd2-041e-44ee-967d-8e23634436b6.json?
